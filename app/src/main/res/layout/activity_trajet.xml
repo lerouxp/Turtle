@@ -29,7 +29,7 @@ xmlns:android="http://schemas.android.com/apk/res/android">
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="arriv&#233; a :"
+        android:text="Arriv&#233;e a :"
         android:textSize="25sp"
         android:textColor="#112233"
         android:layout_x="20dp"
@@ -115,5 +115,27 @@ xmlns:android="http://schemas.android.com/apk/res/android">
         android:maxLength="2"
         android:inputType="datetime"
         android:lines="1"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="centre d'int&#233;ret :"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="#112233"
+        android:layout_x="20dp"
+        android:layout_y="280dp"
+        />
+
+    <ListView
+        android:id="@+id/interetG"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:choiceMode="multipleChoice"
+        android:layout_y="300dp"
+        android:textSize="25sp">
+    </ListView>
+
+
 
 </AbsoluteLayout>
