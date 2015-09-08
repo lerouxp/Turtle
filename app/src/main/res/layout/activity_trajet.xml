@@ -8,45 +8,111 @@ xmlns:android="http://schemas.android.com/apk/res/android">
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="D&#233;part : "
+        android:text="D&#233;part de :"
         android:textSize="25sp"
         android:textColor="#112233"
         android:layout_x="20dp"
         android:layout_y="50dp"/>
 
     <EditText
-        android:id="@+id/depart"
-        android.text.InputType="TYPE_CLASS_DATETIME"
+        android:id="@+id/departv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
+        android:text = "ville de depart"
         android:textSize="25sp"
-        android:layout_x="130dp"
+        android:layout_x="150dp"
         android:layout_y="50dp"
-        android:maxEms="10"
+        android:maxLength="20"
         android:inputType="datetime"
         android:lines="1"/>
 
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Arriv&#233;e : "
+        android:text="arriv&#233; a :"
         android:textSize="25sp"
         android:textColor="#112233"
         android:layout_x="20dp"
+        android:layout_y="100dp"/>
+
+    <EditText
+        android:id="@+id/arrivev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "ville de arrive"
+        android:textSize="25sp"
+        android:layout_x="150dp"
         android:layout_y="100dp"
+        android:maxLength="20"
+        android:inputType="datetime"
+        android:lines="1"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="D&#233;part a        H         min"
+        android:textSize="25sp"
+        android:textColor="#112233"
+        android:layout_x="20dp"
+        android:layout_y="150dp"/>
+
+    <EditText
+        android:id="@+id/departh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00"
+        android:textSize="25sp"
+        android:layout_x="125dp"
+        android:layout_y="150dp"
+        android:maxLength="2"
+        android:inputType="datetime"
+        android:lines="1"/>
+
+    <EditText
+        android:id="@+id/departm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00"
+        android:textSize="25sp"
+        android:layout_x="195dp"
+        android:layout_y="150dp"
+        android:maxLength="2"
+        android:inputType="datetime"
+        android:lines="1"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Arriv&#233;e a        H         min"
+        android:textSize="25sp"
+        android:textColor="#112233"
+        android:layout_x="20dp"
+        android:layout_y="200dp"
         />
 
     <EditText
-        android:id="@+id/arrive"
-        android.text.InputType="TYPE_CLASS_DATETIME"
+        android:id="@+id/arriveh"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
+        android:text="00"
         android:textSize="25sp"
-        android:layout_x="130dp"
-        android:layout_y="50dp"
+        android:layout_x="125dp"
+        android:layout_y="200dp"
         android:maxEms="10"
+        android:maxLength="2"
+        android:inputType="datetime"
+        android:lines="1"/>
+
+    <EditText
+        android:id="@+id/arrivem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00"
+        android:textSize="25sp"
+        android:layout_x="195dp"
+        android:layout_y="200dp"
+        android:maxEms="10"
+        android:maxLength="2"
         android:inputType="datetime"
         android:lines="1"/>
 
