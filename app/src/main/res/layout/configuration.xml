@@ -51,7 +51,7 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Heure de départ :"
                 android:id="@+id/heurdedepart"
-                android:layout_marginLeft="20dp"/>
+                android:layout_marginLeft="1dp"/>
 
             <EditText
                 android:layout_width="52dp"
@@ -98,7 +98,7 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Heure max arrivée :"
                 android:id="@+id/heurmaxarrivee"
-                android:layout_marginLeft="20dp"/>
+                android:layout_marginLeft="1dp"/>
 
             <EditText
                 android:layout_width="52dp"
