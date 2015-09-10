@@ -147,35 +147,35 @@
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Culrure"
+            android:text="Culture"
             android:id="@+id/radioButton"
             android:checked="false" />
 
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Concert"
+            android:text="Concerts"
             android:id="@+id/radioButton2"
             android:checked="false" />
 
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Parcs annimaliler"
+            android:text="Parcs animaliers"
             android:id="@+id/radioButton4"
             android:checked="false" />
 
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Parcs attraction"
+            android:text="Parcs d'attraction"
             android:id="@+id/radioButton3"
             android:checked="false" />
 
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Site sportif"
+            android:text="Site sportifs"
             android:id="@+id/radioButton6"
             android:checked="false" />
 
