@@ -41,6 +41,21 @@ public class Trajet extends FragmentActivity
             mMap = ((SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map)).getMap();
             final String editDepart = getIntent().getStringExtra("DEPART");
             final String editArrivee = getIntent().getStringExtra("ARRIVEE");
+            mMap.addMarker(new MarkerOptions()
+                    .position(new LatLng(47.322047, 5.041479999999979))
+                    .title("Musée des Beaux-Arts de Dijon"));
+
+            mMap.addMarker(new MarkerOptions()
+                    .position(new LatLng(47.322047, 5.041479999999979))
+                    .title("Parc Naturel Régional du Morvan"));
+
+            mMap.addMarker(new MarkerOptions()
+                    .position(new LatLng(47.275887, 4.099798999999962))
+                    .title("Parc Naturel Régional du Morvan"));
+
+            mMap.addMarker(new MarkerOptions()
+                    .position(new LatLng(47.795924, 3.5699710000000096))
+                    .title("AJA Auxerre Marathon Athlétisme Club de course à pied"));
             new ItineraireTask(this, mMap, editDepart, editArrivee).execute();
             if (mMap != null)
             {
@@ -51,7 +66,7 @@ public class Trajet extends FragmentActivity
 
     private void setUpMap()
     {
-        mMap.addMarker(new MarkerOptions().position(new LatLng(0, 0)).title("Marker"));
+        //mMap.addMarker(new MarkerOptions().position(new LatLng(0, 0)).title("Marker"));
     }
 
 }
