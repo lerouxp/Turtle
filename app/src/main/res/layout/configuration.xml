@@ -67,8 +67,8 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="H"
                 android:id="@+id/textView12"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"/>
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
 
             <EditText
                 android:layout_width="52dp"
@@ -84,7 +84,7 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="min"
                 android:id="@+id/textView21"
-                android:layout_marginLeft="20dp" />
+                android:layout_marginLeft="10dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -114,8 +114,8 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="H"
                 android:id="@+id/textView"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"/>
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
 
             <EditText
                 android:layout_width="52dp"
@@ -131,7 +131,7 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="min"
                 android:id="@+id/textView2"
-                android:layout_marginLeft="20dp" />
+                android:layout_marginLeft="10dp" />
         </LinearLayout>
 
         <TextView
